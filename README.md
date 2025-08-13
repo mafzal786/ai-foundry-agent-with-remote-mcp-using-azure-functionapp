@@ -1,6 +1,5 @@
-# Streamable HTTP MCP Client using Azure AI Foundry Agent Service
+# MCP Client using Azure AI Foundry Agent Service with Azure Function App
 
-**Read the Blog Post**: https://medium.com/@eitansela/build-an-mcp-client-with-azure-ai-foundry-agent-service-3c99c805f4d9
 
 ## Running the Azure AI Foundry Agent Service MCP Client
 
@@ -17,4 +16,5 @@ uv venv
 uv sync
 uv run sample_agents_mcp.py
 ```
+
 
