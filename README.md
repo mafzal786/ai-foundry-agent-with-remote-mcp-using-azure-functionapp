@@ -5,6 +5,13 @@
 
 Save the file `.env_sample` as `.env` and update the environment variables. 
 
+## update the .env file. Samples are
+
+MODEL_DEPLOYMENT_NAME= gpt-4o
+PROJECT_ENDPOINT=https://<ai foundry service>.services.ai.azure.com/api/projects/Project01
+MCP_SERVER_URL=https://<azure function app>.eastus-01.azurewebsites.net/runtime/webhooks/mcp/sse
+MCP_SERVER_KEY= <mcp extention key>
+
 ## Login to Azure
 
 
@@ -24,6 +31,7 @@ uv run sample_agents_mcp.py
 ## output screen shots
 
 <img width="1920" height="814" alt="Screenshot 2025-08-13 193442" src="https://github.com/user-attachments/assets/5db874c0-2250-4489-8576-e048ac793767" />
+
 
 
 
