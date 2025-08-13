@@ -1,5 +1,8 @@
 # MCP Client using Azure AI Foundry Agent Service with Azure Function App
 
+You can also visit the following blog for creating MCP server with Azure Function App
+https://medium.com/@muafzal/implementing-mcp-remote-servers-with-azure-function-app-and-github-copilot-integration-96ffb674de1d
+
 
 ## Running the Azure AI Foundry Agent Service MCP Client
 
@@ -34,6 +37,7 @@ uv run sample_agents_mcp.py
 ## output screen shots
 
 <img width="1920" height="814" alt="Screenshot 2025-08-13 193442" src="https://github.com/user-attachments/assets/5db874c0-2250-4489-8576-e048ac793767" />
+
 
 
 
