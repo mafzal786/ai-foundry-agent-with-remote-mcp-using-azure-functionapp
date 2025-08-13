@@ -21,6 +21,10 @@ uv sync
 uv run sample_agents_mcp.py
 ```
 
+## output screen shots
+
+<img width="1920" height="814" alt="Screenshot 2025-08-13 193442" src="https://github.com/user-attachments/assets/5db874c0-2250-4489-8576-e048ac793767" />
+
 
 
 
