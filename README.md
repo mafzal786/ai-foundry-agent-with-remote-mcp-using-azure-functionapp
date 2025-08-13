@@ -9,7 +9,9 @@ Save the file `.env_sample` as `.env` and update the environment variables.
 
 
 az account clear
+
 az login --tenant <tenant id if you have more that one tenant> 
+
 az account set --subscription <subscription id where AI Foundry exists anf if you have more than one subscription in the account>                                                         
 
 ## Run the following commands
@@ -18,6 +20,7 @@ uv venv
 uv sync
 uv run sample_agents_mcp.py
 ```
+
 
 
 
