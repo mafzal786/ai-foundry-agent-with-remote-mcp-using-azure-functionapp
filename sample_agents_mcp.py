@@ -57,7 +57,7 @@ project_client = AIProjectClient(
 # Initialize agent MCP tool
 mcp_tool = McpTool(
     server_label="weather",
-    server_url=os.environ["WEATHER_MCP_SERVER_URL"] + "?code=" + os.environ["MCP_SERVER_KEY"]
+    server_url=os.environ["MCP_SERVER_URL"] + "?code=" + os.environ["MCP_SERVER_KEY"]
 )
 
 # Create agent with MCP tool and process agent run
@@ -151,4 +151,5 @@ with project_client:
     print(f"Current allowed tools: {mcp_tool.allowed_tools}")
 
     agents_client.delete_agent(agent.id)
+
     print("Deleted agent")
